@@ -26,4 +26,4 @@ WHERE SupplierID = 4;
 /*6)How many employees work at northwind? What employees have "manager"
 somewhere in their job title? Write queries to answer each question*/
 SELECT EmployeeID, LastName, FirstName, Title FROM employees
-WHERE Title LIKE "%manager%";
+WHERE Title LIKE "%manager";

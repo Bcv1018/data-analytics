@@ -50,6 +50,6 @@ GROUP BY Title;
 
 /*8)What employees have a monthly salary that is between $2000 and $2500? Write a
 query that orders them by job title. */
-SELECT EmployeeID, LastName,FirstName,Title,Salary FROM employees
+SELECT employeeID, lastname,firstname,Title,Salary FROM employees
 WHERE Salary BETWEEN 2000 AND 2500
 ORDER BY Title;
