@@ -90,6 +90,6 @@ SELECT
     ,ProductName
     ,UnitPrice * UnitsInStock AS InventoryValue 
 FROM products
-WHERE UnitsInStock > 1
+WHERE UnitsInStock > 0
 ORDER BY InventoryValue DESC, ProductName
 ;
