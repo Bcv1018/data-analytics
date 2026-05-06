@@ -26,6 +26,6 @@ Total_Debt_Amount = Mortgage + Student_Loans + Credit_card_Debt + Medical_bills
 Net_Worth = Total_Assets_Amount - Total_Debt_Amount
 
 # Display the results
-print('Your total assets are: ', Total_Assets_Amount)  
-print('Your total debts are: ', Total_Debt_Amount)
-print('Your net worth is: ', Net_Worth)
+print(f'Your total assets are: , {Total_Assets_Amount:,}')  
+print(f'Your total debts are: , {Total_Debt_Amount:,}')
+print(f'Your net worth is: , {Net_Worth:,}')
