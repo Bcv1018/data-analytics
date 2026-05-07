@@ -19,4 +19,4 @@ print(f'The tip on a ${Bill:.2f} restaurant bill is ${Tip_Amount:.2f}')
 # otherwise the calculation will not work as if they put a whole number it will not be the right answer, unless
 # there is a way to convert that whole number into a decimal.
 
-# Accidentally already did lab 4 when I re wreote my display using f-string. Nice :D
+# Accidentally already did lab 4 when I re wrote my display using f-string. Nice :D
