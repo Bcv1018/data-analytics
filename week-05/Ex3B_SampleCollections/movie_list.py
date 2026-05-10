@@ -1,6 +1,6 @@
 # Working with lists
-movie_list = ["Forrest Gump","The Batman", "Alien","Shrek","Scooby-Doo"]
-print(f"The list [movie_list] inlcudes {len(movie_list)} of my favorite movies")
+movie_list = ["Zathura","Ed", "Kung Fu Panda","Shrek","Scooby-Doo","The Sandlot","Cars"]
+print(f"The list [movie_list] inlcudes {len(movie_list)} of movies I grew up watching")
 print(movie_list)
 
 # Using sorted()
@@ -11,7 +11,13 @@ print(movie_list)
 # Using .sort()
 movie_list.sort()
 print(movie_list)
+# The .sort() acts like a variable and it also sorts it by a-z order
 
-#
+# Using append
+movie_list.append("Star wars episode 3")
+# Updated description
+print(f"The list [movie_list] includes {len(movie_list)} of movies I grew up watching ")
+# Updated list
+print(movie_list)
 
 
