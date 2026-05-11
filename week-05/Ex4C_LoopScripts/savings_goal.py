@@ -1,5 +1,6 @@
 # using a while loop to keep track of savings and when you hit savings goal
 
+# Start
 bank_balance = int(input("Type in starting balance: "))
 savings_goal = int(input("Type in savings goal: "))
 weekly_savings = int(input("Type in weekly savings amount: "))
