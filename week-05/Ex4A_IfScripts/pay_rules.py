@@ -20,7 +20,7 @@ elif hours_worked < 40:
     reason = "you worked under 40 hours"
 
 print(f"""
-      \n20Your pay rate is ${pay_rate} per hour 
+      \nYour pay rate is ${pay_rate} per hour 
       \nyou worked {(hours_worked + overtime_hours):.0f} hours 
       \nyour gross pay is ${gross_pay:.2f} becuase {reason} 
 """)
