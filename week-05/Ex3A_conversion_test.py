@@ -41,9 +41,11 @@ a_int_flt = int(float(a))
 print(f"A's new type is {a_int_flt}")
 
 # Slicing numeric 
+a_slice = float(a[1:-1])
 c_slice = int(c[:3])
 d_slice = int(d[-2])
 
+print(a_slice, type(a_slice))
 print(c_slice, type(c_slice))
 print(d_slice, type(d_slice))
 
