@@ -1,0 +1,7 @@
+f = open("about_me.txt", "a")
+f.close()
+
+f = open("about_me.txt", "a")
+f.write("F)If you could do anything for your 'perfect' night out, where would you go and what would you do?")
+f.write("\nPerfect night out for me would be to go a new york giants game and get some food after")
+f.close()
