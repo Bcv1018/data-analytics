@@ -1,0 +1,18 @@
+∗ What does a value in this column represent? What values might you see here?
+In the order details table the values in the column of Unitprice represent waht price the customer bought a product at. You will see different various prices in a float data type.
+∗ Is this column a part of the primary key to this table?
+This column is not a part of the primary key to this table
+∗ Is this column a part of a foreign key that points to a record in another table?
+No this column is not a foriegn key.
+
+∗ Would this column be valuable to bring into our Power BI Model? Yes, or no? Why?
+Yes this column would be valuable to bring into our power BI Model because it lists the price of the product and with that information there is a lot of analysis that could be done.
+
+∗ Do you believe this column is appropriately named for Data Analysis purposes?
+Yes this column is appropriately named for Data Analysis purposes.
+
+∗ What might be the data type and format for this column in a Power BI Model?
+This would be a fixed decimal in a Power BI Model.
+
+∗ Can you think of any calculations where this column data might be used?
+Yes a calculation that could be done is you can multiplt unitprice with quantity to find total of how much the customer would need to pay for the amount of products they got.
